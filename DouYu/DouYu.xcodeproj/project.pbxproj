@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		C23964A424498F3800028717 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23964A324498F3800028717 /* AppDelegate.swift */; };
 		C23964A624498F3800028717 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23964A524498F3800028717 /* SceneDelegate.swift */; };
-		C23964A824498F3800028717 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23964A724498F3800028717 /* ContentView.swift */; };
 		C23964AA24498F3A00028717 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C23964A924498F3A00028717 /* Assets.xcassets */; };
 		C23964AD24498F3A00028717 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C23964AC24498F3A00028717 /* Preview Assets.xcassets */; };
 		C23964B024498F3A00028717 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C23964AE24498F3A00028717 /* LaunchScreen.storyboard */; };
@@ -38,7 +37,6 @@
 		C23964A024498F3800028717 /* DouYu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouYu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C23964A324498F3800028717 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C23964A524498F3800028717 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C23964A724498F3800028717 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C23964A924498F3A00028717 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C23964AC24498F3A00028717 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C23964AF24498F3A00028717 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -101,7 +99,7 @@
 			children = (
 				C23964A324498F3800028717 /* AppDelegate.swift */,
 				C23964A524498F3800028717 /* SceneDelegate.swift */,
-				C23964A724498F3800028717 /* ContentView.swift */,
+				C23964D324499C8500028717 /* Classes */,
 				C23964A924498F3A00028717 /* Assets.xcassets */,
 				C23964AE24498F3A00028717 /* LaunchScreen.storyboard */,
 				C23964B124498F3A00028717 /* Info.plist */,
@@ -134,6 +132,61 @@
 				C23964C724498F3A00028717 /* Info.plist */,
 			);
 			path = DouYuUITests;
+			sourceTree = "<group>";
+		};
+		C23964D324499C8500028717 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C23964D924499C8500028717 /* main */,
+				C23964D524499C8500028717 /* Tools */,
+				C23964D424499C8500028717 /* home */,
+				C23964D624499C8500028717 /* follow */,
+				C23964D724499C8500028717 /* profile */,
+				C23964D824499C8500028717 /* live */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C23964D424499C8500028717 /* home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		C23964D524499C8500028717 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		C23964D624499C8500028717 /* follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = follow;
+			sourceTree = "<group>";
+		};
+		C23964D724499C8500028717 /* profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = profile;
+			sourceTree = "<group>";
+		};
+		C23964D824499C8500028717 /* live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = live;
+			sourceTree = "<group>";
+		};
+		C23964D924499C8500028717 /* main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,7 +322,6 @@
 			files = (
 				C23964A424498F3800028717 /* AppDelegate.swift in Sources */,
 				C23964A624498F3800028717 /* SceneDelegate.swift in Sources */,
-				C23964A824498F3800028717 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
